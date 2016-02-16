@@ -1,0 +1,196 @@
+.row-xs-12, .row-xs-11, .row-xs-10, .row-xs-9, .row-xs-8, .row-xs-7, .row-xs-6,
+.row-xs-5, .row-xs-4, .row-xs-3, .row-xs-2, .row-xs-1 {
+
+}
+
+
+.row-xs-12 {
+  height: 100%;
+}
+.row-xs-11 {
+  height: 91.66666667%;
+  background-color: #E4F5B1;
+  }
+.row-xs-10 {
+  height: 83.33333333%;
+  background-color: #512B52;
+}
+.row-xs-9 {
+  height: 75%;
+}
+.row-xs-8 {
+  height: 66.66666667%;
+}
+.row-xs-7 {
+  height: 58.33333333%;
+}
+.row-xs-6 {
+  height: 50%;
+}
+.row-xs-5 {
+  height: 41.66666667%;
+}
+.row-xs-4 {
+  height: 33.33333333%;
+}
+.row-xs-3 {
+  height: 25%;
+}
+.row-xs-2 {
+  height: 16.66666667%;
+}
+.row-xs-1 {
+  height: 8.33333333%;
+  background-color: #635274;
+}
+
+.rightbottom{
+  background-color: #7BB0A8 ! important;
+}
+.leftbottom{
+  background-color: #635274;
+}
+.fix_margin_padding {
+	margin: 0;
+	padding: 0;
+}
+
+form > div {
+  padding: 5px;
+}
+
+.icon-right-wrapper {
+  float: right;
+  display: table;
+}
+
+.icon-right-wrapper > * {
+    display: table-cell;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rightCenter {
+  position: absolute;
+  top: 50%;
+  right:0;
+  transform: translateY(-50%);
+}
+
+.right {
+  float: right;
+}
+
+.full, .iconlist, .icon-right-wrapper {
+    height: 100%;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.realContainer {
+  position: relative;
+}
+
+/**
+ * 
+ **/
+.portrait {
+  width:30%;
+  height:30%; 
+  border: 1px solid red;
+  padding: 1px;
+}
+
+.portrait img {
+  width:100%;
+  height:100%; 
+}
+.buttons{
+  height: 100%
+}
+
+.singlechat{
+  position: relative;
+  margin-bottom: 0px;
+  float:right;
+  width: 30%;
+  height: 40%;
+  background-color:#A7DBAB;
+  opacity: 0.6;
+}
+.list{
+
+  color: white !important;
+  font-weight: bold;
+}
+
+.message {
+  padding: 10px;
+
+}
+
+.message > p{
+    position: relative;
+    width: 33%;
+    padding: 15px;
+    border: 5px solid #5a8f00;
+    color: #333;
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.message > p:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #5a8f00 transparent;
+    display: block;
+    width: 0;
+}
+
+.message > p:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+.message.me > p {
+  float: right;
+}
+
+.message.me:after {
+      content: "";
+      display: table;
+      clear: both;
+};
