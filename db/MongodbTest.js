@@ -14,32 +14,32 @@ var user = {
 // 	console.log('failedreason', failedreason);
 // })
 
-// @@@@ userCreate test
-// var userCreate = {
-// 	username: "kkkkkkk1",
-// 	password: "1",
-// 	email: 'zfdsfds1',
-// 	sex: 'male',
-// }
+//@@@@ userCreate test
+var userCreate = {
+	username: "kkkkkkk1",
+	password: "1",
+	email: 'zfdsfds1',
+	sex: 'male',
+}
 
-// MongoDB.register(userCreate).then((profile) => {
-// 	console.log('profile', profile);
-// }).catch((error) => {
-// 	console.log('error', error);
-// })
+MongoDB.register(userCreate).then((profile) => {
+	console.log('profile', profile);
+}).catch((error) => {
+	console.log('error', error);
+})
 
 // @@@@ History test
-var msg = {
-	from: "xxxxx1",
-	to: "xxxxx2",
-	msgtype: 'MSG_SINGLE',
-	content: 'xxfsfdsfds'
-};
+// var msg = {
+// 	from: "xxxxx1",
+// 	to: "xxxxx2",
+// 	msgtype: 'MSG_SINGLE',
+// 	content: 'xxfsfdsfds'
+// };
 
-MongoDB.logchat(msg).then((saveObj) => {
-	console.log(saveObj);
-}).catch((err) => {
-	console.log(err);
-});
+// MongoDB.logchat(msg).then((saveObj) => {
+// 	console.log(saveObj);
+// }).catch((err) => {
+// 	console.log(err);
+// });
 
 

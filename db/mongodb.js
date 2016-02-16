@@ -28,8 +28,7 @@ MongoDB.checklogin = function(user) {
 // find User By Email or UserName
 MongoDB.findUserByEmailOrUserName = function(user) {
 	var defer = Q.defer();
-	var queryOrParame
-	ters = [{
+	var queryOrParameters = [{
 		username: user.username
 	}, {
 		email: user.username
