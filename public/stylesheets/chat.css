@@ -3,7 +3,6 @@
 
 }
 
-
 .row-xs-12 {
   height: 100%;
 }
@@ -15,6 +14,7 @@
   height: 83.33333333%;
   background-color: #512B52;
 }
+
 .row-xs-9 {
   height: 75%;
 }
@@ -127,6 +127,7 @@ form > div {
   height:100%; 
 }
 .buttons{
+  color: red;
   height: 100%
 }
 
@@ -138,8 +139,10 @@ form > div {
   height: 40%;
   background-color:#A7DBAB;
   opacity: 0.6;
+//  color :red;
 }
 .list{
+  color: red;
 
   color: white !important;
   font-weight: bold;
@@ -147,6 +150,7 @@ form > div {
 
 .message {
   padding: 10px;
+  color: red;
 
 }
 
@@ -190,6 +194,7 @@ form > div {
 }
 
 .message.me:after {
+  color: red;
       content: "";
       display: table;
       clear: both;
